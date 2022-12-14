@@ -11,7 +11,7 @@ Dr. Nichola Garbett (nichola.garbett@louisville.edu)
 
 Please contact corresponding author* for any questions regarding this package.
 
-## December 14, 2022
+## Primary Public Commit
 
 Package was made public for download. Package contains two major functions:
 
