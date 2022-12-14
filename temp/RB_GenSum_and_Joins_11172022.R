@@ -34,8 +34,9 @@ MelaThermo.GenSum_form <- MelaThermo.long %>%
   pivot_wider(names_from = Temperature, values_from = dCp) %>%
   rename(SampleCode = SampleID)
 
-Summary_Metrics_GenSum <- GenSumv20::clean_thermograms(MelaThermo.GenSum_form)
-Summary_Metrics_tlbparam <- tlbparam::clean_thermograms(MelaThermo.GenSum_form)
+Summary_Metrics_GenSum <- GenSumv20::clean_thermograms(MelaThermo.GenSum_form, lag = TRUE)
+Summary_Metrics_tlbparam <- tlbparam::clean_thermograms(MelaThermo.GenSum_form,
+                                                        lag = TRUE)
 
 if(identical(Summary_Metrics_GenSum, Summary_Metrics_tlbparam)){
   print("Packages produce the same output")
