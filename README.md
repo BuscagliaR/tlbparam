@@ -1,11 +1,13 @@
 # tlbparam
-Generate Summary Information for Thermal Liquid Biopsy (tlb) Data 
+Generate Summary Information for Thermal Liquid Biopsy (tlb) Data
+
+## Contributors
 
 Dr. Robert Buscaglia (robert.buscaglia@nau.edu)*
 
 Avery Bell
 
-Gerald (Scooter) Nowak
+Scooter Nowak ( scooternowak@gmail.com)
 
 Dr. Nichola Garbett (nichola.garbett@louisville.edu)
 
