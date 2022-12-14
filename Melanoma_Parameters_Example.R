@@ -13,6 +13,3 @@ thermSummaryAll <- clean_thermograms(melTherms)
 # extract the thermogram parameters from produced data.frame
 thermogram.parameters <- thermSummaryAll %>% select('SampleCode', 'tarea':'median')
 str(thermogram.parameters)
-
-
-
