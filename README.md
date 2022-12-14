@@ -13,11 +13,13 @@ Please contact corresponding author* for any questions regarding this package.
 
 ## Primary Public Commit
 
-Package was made public for download. Package contains two major functions:
+Package was made public for download December 14th, 2022. Package contains two primary functions:
 
 **load_thermograms()** - generates properly formatted data.frame for use by clean_thermograms()
 
 **clean_thermograms()** - generates thermogram parameters for all provided samples.
+
+Several other depedent functions are present with vignette descriptions.
 
 ### Thermogram Parameters and Descriptions
 
