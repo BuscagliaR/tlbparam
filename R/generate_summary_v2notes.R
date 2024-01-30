@@ -19,7 +19,7 @@ generate_summary <- function(df, sample_code, temperatures){
   # peak3.low <- 280/smoothing_factor
   # peak3.high <- 330/smoothing_factor
 
-  temp.data.load <- tlbparam::load_thermograms('data-raw/Mela_Publication_Data_RB.xlsx',
+  temp.data.load <- tlbparam::load_thermograms('data-raw/Mela_Publication_Data.xlsx',
                                                sheet='DSC Data', temps = c(paste0('T', seq(45, 90, by=0.1))))
   df <- temp.data.load %>% select(-SampleCode)
   sample_code <- temp.data.load['SampleCode']
@@ -58,7 +58,7 @@ generate_summary <- function(df, sample_code, temperatures){
   # Calculate Peak F
   # old
   # df.stats$peakf <- apply(df, 1, gen_peak, l.temp=peakf.low, h.temp=peakf.high) # dependency
-  peakf.low <- which(temperatures == 47)
+  peakf.low <- which(temperatures == 50)
   peakf.high <- which(temperatures == 54)
   df.peakf <- df %>% select(peakf.low:peakf.high)
   df.stats$peakf <- apply(df.peakf, 1, max)
@@ -75,9 +75,10 @@ generate_summary <- function(df, sample_code, temperatures){
   peak1.high <- which(temperatures == 66)
   df.peak1 <- df %>% select(peak1.low:peak1.high)
   df.stats$peak1 <- apply(df.peak1, 1, max)
-  df.stats$tpeak1 <- temperatures[apply(df.peak1, 1, which.max)]
+  df.stats$tpeak1 <- temperatures[peak1.low:peak1.high][apply(df.peak1, 1, which.max)]
 
-  plot(x = seq(45, 90, 0.1), y = df[1,])
+  # plot(x = seq(45, 90, 0.1), y = df[100,])
+  # plot(diff(as.vector(df[100,])))
 
   # Calculate Temperature at Peak 1
   for (i in 1:nrow(df)){df.stats$tpeak1[i] <-
