@@ -23,7 +23,8 @@
 
 
 clean_thermograms <- function(df, type='Plasma', column='SampleCode', low_temp='T45', high_temp='T90', temp_range=seq(45.0, 90.0, by=0.1),
-                              summary=c('tarea','fwhm','max','tpeakf','peakf','tpeak1','peak1','tpeak2','peak2','tpeak3','peak3','P1P2.trough','tP1P2.trough','tmax','tfm','peak12ratio','min','tmin','median'),
+                              summary=c('Width','Area','Max','TMax','TFM','Peak 1','Peak 2','Peak 3','TPeak 1','TPeak 2',
+                                        'TPeak 3','Peak 1 / Peak 2'),
                               lag=FALSE){
   df <- tibble::as_tibble(df) %>%
     dplyr::select(!!column, low_temp:high_temp) %>%
