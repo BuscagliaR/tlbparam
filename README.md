@@ -89,10 +89,12 @@ To obtain the thermogram metrics for the Melanoma data presented in "Plasma Ther
 
 The tlbparam package has been used in the following publications. Package has been updated for current submission of Myocardial Injury manuscript.
 
-Characterization of Myocardial Injury Phenotype by Thermal Liquid Biopsy. 2024. Frontiers in Cardiology. Submitted.
+  1. Characterization of Myocardial Injury Phenotype by Thermal Liquid Biopsy. 2024. Frontiers in Cardiology. Submitted.
 
-Plasma Thermogram Parameters Differentiate Status and Overall Survival of Melanoma Patients. 2023. Current Oncology, 30(7), 6079-6096.
+  2. Plasma Thermogram Parameters Differentiate Status and Overall Survival of Melanoma Patients. 2023. Current Oncology, 30(7), 6079-6096.
 
-### Package Limitations
+### Package Limitations and Future Updates
+
+Function manuals and parameter descriptions within R are out dated.  Functionality is moving toward online Python-based web application for more flexible usage.  Please contact corresponding author for any information regarding current version metric formulas.
 
 Some dependencies still exists for data collected specific to the Garbett laboratory.  Please email any questions or suggestions to the corresponding author.
