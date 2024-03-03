@@ -72,13 +72,13 @@ Metrics below are available but were not used in most recent (Myocardial Injury 
 
 **`$`$min$**: Minimum observed excess heat capacity.
 
-**$tmin**: Temperature corresponding to minimum observed excess heat capacity.
+**`$`$T_{min}$**: Temperature corresponding to minimum observed excess heat capacity.
 
-**$median**: Median observed excess heat capacity
+**`$`$Median$**: Median observed excess heat capacity
 
-**`$`$T_{Peakf}$**: Temperature of peak corresponding to Fibrinongen temperature region (47 - 60 C)
+**`$`$T_{Peak~f}$**: Temperature of peak corresponding to Fibrinongen temperature region (47 - 60 C)
 
-**$peakf**: Height of peak corresponding to Fibrinongen temperature region (47 - 60 C)
+**$Peak~f**: Height of peak corresponding to Fibrinongen temperature region (47 - 60 C)
 
 
 ## Melanoma Data Example
