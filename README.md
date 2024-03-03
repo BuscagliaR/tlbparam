@@ -78,7 +78,7 @@ Metrics below are available but were not used in most recent (Myocardial Injury 
 
 **`$`$T_{Peak~f}$**: Temperature of peak corresponding to Fibrinongen temperature region (47 - 60 C)
 
-**$Peak~f**: Height of peak corresponding to Fibrinongen temperature region (47 - 60 C)
+**`$`$Peak~f$**: Height of peak corresponding to Fibrinongen temperature region (47 - 60 C)
 
 
 ## Melanoma Data Example
