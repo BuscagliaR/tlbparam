@@ -10,7 +10,7 @@ Dr. Robert Buscaglia (robert.buscaglia@nau.edu)*
 
 Avery Bell
 
-Scooter Nowak (scooternowak@gmail.com)
+Scooter Nowak
 
 Dr. Nichola Garbett (nichola.garbett@louisville.edu)
 
