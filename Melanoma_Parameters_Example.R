@@ -11,5 +11,5 @@ melTherms <- load_thermograms(file = "data-raw/Mela_Publication_Data.xlsx", # fi
 thermSummaryAll <- clean_thermograms(melTherms)
 
 # extract the thermogram parameters from produced data.frame
-thermogram.parameters <- thermSummaryAll %>% select('SampleCode', 'tarea':'median')
+thermogram.parameters <- thermSummaryAll %>% select('SampleCode', 'Width':'TPeak F')
 str(thermogram.parameters)
