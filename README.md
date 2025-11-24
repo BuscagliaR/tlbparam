@@ -2,6 +2,9 @@
 Generate Summary Information for Thermal Liquid Biopsy (tlb) Data
 
 # Last Update
+
+November 2025 - Demo data changed; Updates to automated demonstration incomplete.
+
 February 2024 - updated and improved several parameters included in the analysis
 
 ## Contributors
