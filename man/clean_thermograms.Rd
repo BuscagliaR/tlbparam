@@ -11,9 +11,10 @@ clean_thermograms(
   low_temp = "T45",
   high_temp = "T90",
   temp_range = seq(45, 90, by = 0.1),
-  summary = c("tarea", "fwhm", "max", "tpeakf", "peakf", "tpeak1", "peak1", "tpeak2",
-    "peak2", "tpeak3", "peak3", "P1P2.trough", "tP1P2.trough", "tmax", "tfm",
-    "peak12ratio", "min", "tmin", "median"),
+  summary = c("Width", "Area", "Max", "TMax", "TFM", "Peak 1", "Peak 2", "Peak 3",
+    "TPeak 1", "TPeak 2", "TPeak 3", "Peak 1 / Peak 2", "Peak 1 / Peak 3",
+    "Peak 2 / Peak 3", "Median", "V1.2", "TV1.2", "V1.2 / Peak 1", "V1.2 / Peak 2",
+    "V1.2 / Peak 3", "Min", "TMin", "Peak F", "TPeak F"),
   lag = FALSE
 )
 }
