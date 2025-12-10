@@ -93,6 +93,6 @@ The tlbparam package has been used in the following publications. Package has be
 
 ### Package Status and Future Updates
 
-Functionality is also implemented in an online R-Shiny web application for non-R based users. ThermogramForge can be found by clicking [HERE]([https://pages.github.com/](https://rbuscaglia-thermogramforge.share.connect.posit.cloud/)). 
+Functionality is also implemented in an online R-Shiny web application for non-R based users. ThermogramForge can be found by clicking [HERE](https://rbuscaglia-thermogramforge.share.connect.posit.cloud/). 
 
 Please contact corresponding author for any information regarding current version metric formulas. Some dependencies still exists for data collected specific to the Garbett laboratory. Authors are working to update provided tutorials and use of packages through the R environment. Please email any questions or suggestions to the corresponding author.
