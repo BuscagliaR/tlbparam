@@ -3,7 +3,7 @@ Generate Summary Information for Thermal Liquid Biopsy (tlb) Data
 
 # Last Update
 
-November 2025 - Demo data changed; Updates to automated demonstration incomplete.
+November 2025 - Demo data changed; Cover page updates.
 
 February 2024 - updated and improved several parameters included in the analysis
 
@@ -83,11 +83,6 @@ Metrics below are available but were not used in most recent (Myocardial Injury 
 
 **`$`$Peak~f$**: Height of peak corresponding to Fibrinongen temperature region (47 - 60 C)
 
-
-## Melanoma Data Example
-
-To obtain the thermogram metrics for the Melanoma data presented in "Plasma Thermogram Parameters Differentiate Status and Overall Survival of Melanoma Patients. 2023. Current Oncology, 30(7), 6079-6096.", please download the required packages files and run the R script 'Melanoma_Parameters_Example.R'. Metrics have been updated since completion of this manuscript.
-
 ## Publications
 
 The tlbparam package has been used in the following publications. Package has been updated for current submission of Myocardial Injury manuscript.
@@ -96,8 +91,6 @@ The tlbparam package has been used in the following publications. Package has be
 
   2. Plasma Thermogram Parameters Differentiate Status and Overall Survival of Melanoma Patients. 2023. Current Oncology, 30(7), 6079-6096.
 
-### Package Limitations and Future Updates
+### Package Status and Future Updates
 
-Function manuals and parameter descriptions within R are out dated.  Functionality is moving toward online Python-based web application for more flexible usage.  Please contact corresponding author for any information regarding current version metric formulas.
-
-Some dependencies still exists for data collected specific to the Garbett laboratory.  Please email any questions or suggestions to the corresponding author.
+Functionality is also implemented in an online Python-based web application for non-R based users. Please contact corresponding author for any information regarding current version metric formulas. Some dependencies still exists for data collected specific to the Garbett laboratory. Authors are working to update provided tutorials and use of packages through the R environment. Please email any questions or suggestions to the corresponding author.
