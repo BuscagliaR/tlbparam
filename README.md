@@ -85,11 +85,11 @@ Metrics below are available but were not used in most recent (Myocardial Injury 
 
 ## Publications
 
-The tlbparam package has been used in the following publications. Package has been updated for current submission of Myocardial Injury manuscript.
+The tlbparam package has been used in the following publications.
 
-  1. Characterization of Myocardial Injury Phenotype by Thermal Liquid Biopsy. 2024. Frontiers in Cardiology. Submitted.
-
-  2. Plasma Thermogram Parameters Differentiate Status and Overall Survival of Melanoma Patients. 2023. Current Oncology, 30(7), 6079-6096.
+  1. Reger, K. C., Schneider, G., Line, K. T., Kaliappan, A., Buscaglia, R., & Garbett, N. C. (2025). Automated Baseline-Correction and Signal-Detection Algorithms with Web-Based Implementation for Thermal Liquid Biopsy Data Analysis. Cancers, 18(1), 60.
+  2. Lidani, K. C., Buscaglia, R., Trainor, P. J., Tomar, S., Kaliappan, A., DeFilippis, A. P., & Garbett, N. C. (2024). Characterization of myocardial injury phenotype by thermal liquid biopsy. Frontiers in Cardiovascular Medicine, 11, 1342255.
+  3. Nguyen, T. Q., Schneider, G., Kaliappan, A., Buscaglia, R., Brock, G. N., Hall, M. B., ... & Garbett, N. C. (2023). Plasma thermogram parameters differentiate status and overall survival of melanoma patients. Current Oncology, 30(7), 6079-6096.
 
 ### Package Status and Future Updates
 
